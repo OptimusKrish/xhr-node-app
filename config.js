@@ -1,6 +1,6 @@
 var config = {};
 
-config.port = '3000';
+config.port = '80';
 config.userInfo = './userInfo.json';
 
 module.exports = config;
