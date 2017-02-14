@@ -4,12 +4,11 @@
   "description": "Node app for XHR processing",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "jasmine"
   },
   "dependencies": {
-    "express": "^4.14.1",
-    "nodemon": "^1.11.0"
+    "express": "^4.14.1"
   },
   "keywords": [
     "xhr-node",
