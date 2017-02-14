@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 before_script:
-  - npm install -g jasmine
+- npm install -g jasmine
+notifications:
+  slack:
+    secure: Nk2OEYdh4Z4BYYh5jvM0vbavSuRKTpnBXwPXyZCuJMbEMK2YQF3OK6MA2FvtErdSFLAxfnx2P50jteYyby/IjddwQL2/2Q96+a9DoSmowvyIL1o/z3FLjLQ3KfPX0KmATG87FPgjd4kndtcehE0NNO0NGSB18zkUxF9nRLgQKc/6sEGgrYBxHNKV7nJyQCqwIrfA4hPGfenXEPkKxUyIJYM42m0nD/abcNw0R4EutEJWDKXHmfBN3wFQTMosZmS7vezAiMMdMGEd5ML2RM1PprL0zmiMD5uFsae0IaBtK7S35dcm1hik8ZA1dKsn2AHYDbO46ZJafEaw0DIjarAQ3Gxei4btDBZn2mx79lFHJnhtXzM9jZdDe2lokg/0p3HG5EqLzQKWYAy9yJBgpHJhPsQfRPgkzIj9GSBhJ254V1rq+YIU/M6wwZunIKDTfzEPGCDw9Y82+o735QI14euIqUka/etOSwknx9VtctYDkBGpAoE1RIxANdnIg8B46W7/W+gGuD/hcHeG+RRppGm/+KSZI+lcfe6eD89EqK8sOSluP2C66rP1bI7jcG0elWTMfj3RubezYurzvr9dNKamUvgDgRg/qFM7OJeMB2wS6WOAS1/mCV99TFHE+os5qurnSOHvqmN3tY4APoU3GygO7KmMDzQEb0seEAHQgGpzg+0=
