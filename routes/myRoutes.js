@@ -27,7 +27,7 @@ myRoutes.login = function(req, res) {
 
 //to display default error message for incorrect routes
 myRoutes.defaultPage = function(req, res) {
- res.send('Error: 404, Page not found :-(');
+ res.send('Hello World!');
 };
 
 module.exports = myRoutes;
