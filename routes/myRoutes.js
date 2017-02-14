@@ -27,7 +27,7 @@ myRoutes.login = function(req, res) {
 
 //to display default error message for incorrect routes
 myRoutes.defaultPage = function(req, res) {
- res.send('Hello World!');
+ res.send('Valid route is /login/:id/:password');
 };
 
 module.exports = myRoutes;
